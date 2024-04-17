@@ -1,12 +1,12 @@
 body{
 background-color:black;
 color:white;
-margin:0;
 }
 /* Top Navigation Bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
+  margin:0;
 }
 
 .topnav a {
