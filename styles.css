@@ -3,6 +3,7 @@ background-color:black;
 color:white;
 margin:0;
 }
+/* Top Navigation Bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -25,4 +26,8 @@ margin:0;
 .topnav a.active {
   background-color: #3566D6;
   color: white;
+}
+/* Home Page Text */
+.hptext {
+  text-align: center;
 }
