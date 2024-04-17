@@ -35,6 +35,7 @@ margin:0;
 /* Rotating Card */
   .card-container {
     perspective: 1000px;
+    display:flex;
   }
 
   .card {
