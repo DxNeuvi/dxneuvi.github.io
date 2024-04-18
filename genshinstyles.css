@@ -1,5 +1,18 @@
-body{
-  background-image: url('https://th.bing.com/th/id/OIP.pS68-_tauhZD8jl4l9wOJgAAAA?rs=1&pid=ImgDetMain');
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("SnezBg.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Top Navigation Bar */
 .topnav {
@@ -34,4 +47,7 @@ body{
   border-style: solid;
   border-radius: 10px;
   border-color: rgb(93, 226, 231);
+}
+.centercontent h1 {
+text-align: center;
 }
