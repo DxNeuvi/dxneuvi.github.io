@@ -78,3 +78,9 @@ margin:0;
   .card a:link, .card a:visited, .card a:hover, .card a:active {
     color:white;
   }
+
+  .card a {
+    padding: 25px;
+    background-color:blue;
+    color:white;
+  }
