@@ -47,7 +47,8 @@ body, html {
   background-color: rgba(0, 0, 0, 0.55);
   border-style: solid;
   border-radius: 10px;
-  border-color: rgb(93, 226, 231);
+  border-color: #193D3F;
+  color: white;
 }
 .centercontent h1 {
 text-align: center;
