@@ -66,10 +66,6 @@ margin:0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .card-face .back {
-    padding: 200px 300px;
-    background-color: #2ecc71;
-
   .front {
     background-color: #3498db;
   }
