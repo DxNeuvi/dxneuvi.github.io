@@ -81,6 +81,7 @@ margin:0;
 
   .card a {
     padding: 25px;
-    background-color:blue;
-    color:white;
+    background-color: blue;
+    color: white;
+    text-align: center;
   }
