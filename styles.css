@@ -35,8 +35,8 @@ margin:0;
 /* Rotating Card */
   .card-container {
     perspective: 1000px;
-    display:grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: center;
   }
 
   .card {
