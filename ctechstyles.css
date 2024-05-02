@@ -27,7 +27,6 @@ body {
 
 .topnav a.active {
     color: red;
-    background-image: url('background.png');
 }
 
 
