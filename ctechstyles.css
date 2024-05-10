@@ -1,4 +1,4 @@
-body {
+bbody {
     background-color: black;
     color: white;
     margin: 0;
@@ -147,6 +147,25 @@ h2 {
     font-size: 18px
    }
 
+   /* Responsive Product Space */
+
+   @media only screen and (max-width: 1000px) {
+    body .productspace{
+      display: none;
+    }
+    body .productdescription {
+      display: block;
+    }
+  }
+
+   @media only screen and (max-width: 500px) {
+
+    body .productdescription {
+      font-size: small;
+      margin: 10px;
+    }
+  }
+
    /* Product Space */
 
    .productspace {
@@ -182,6 +201,16 @@ h2 {
   .productspacecontent {
     grid-area: productspacecontent;
     padding: 50px;
+    min-width: 300px;
+  }
+
+  .productdescription {
+    display: none;
+    color: white;
+    border: 1px solid rgb(250, 30, 78);
+    padding: 10px;
+    margin: 100px;
+    font-family: Arial;
   }
 
   /* Shop Buttons */
@@ -208,4 +237,14 @@ h2 {
     padding: 12px;
     color: white;
     cursor: pointer;
+  }
+
+  /* Shop Buttons */
+
+  .socials {
+    border: 1px solid red;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    min-width: 300px;
   }
