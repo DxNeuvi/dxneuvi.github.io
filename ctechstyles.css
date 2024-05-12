@@ -49,7 +49,6 @@ h2 {
 
 /* Dropdown Menu */
 .dropbtn {
-    /*background-color: #04AA6D;*/
     background-color: #333;
     color: rgb(250, 30, 78);
     padding: 14px 16px;
@@ -84,6 +83,50 @@ h2 {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /* Front Page */
+
+  #frontpage {
+    height: 650px;
+    background-image: url(images/indexbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .fpcontent {
+    color: white;
+    height: 100%;
+    background-color: rgba(0, 0, 21, .7);
+  }
+
+  .fpheader {
+    font-size: 80px;
+    text-align: left;
+    font-family: "Segoe UI";
+    color: rgb(255, 0, 0);
+    margin-left: 150px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  .fpdescription {
+    width: 45%;
+    height: 300px;
+    margin-left: 150px;
+    font-family: verdana;
+    font-size: 23px;
+  }
+
+  .fpicons img {
+    width: 100px;
+  }
+
+  .fpicons img:hover {
+    opacity: 0.4;
+  }
+
 
   /* Card Selectors */
 
